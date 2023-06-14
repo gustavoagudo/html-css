@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4d3797;
+    text-shadow: 1px 1px 2px #3d2b777e;
+}
+@import url('https://fonts.googleapis.com/css2?family= Roboto +Condensed:wght@300 & display=swap');
+body {
+    background-image: linear-gradient(to right, #57AAEB 20%, #5B88F5);
+    font: normal 300 1em "Roboto Condensed", sans-serif;
+}
+main {
+    background-color: white;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #1c2a4b6c;
+
+}
