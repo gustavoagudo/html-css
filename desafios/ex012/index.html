@@ -13,6 +13,25 @@
         td, th{
             padding: 10px;
             border: 1px solid black;
+            text-align: center;
+        }
+        th{
+            background-color: darkgray;
+            color: white;
+        }
+        .medias{
+            background-color: darkgray;
+            color: white;
+            font-weight: bolder;
+           
+        }
+
+        .areas{
+            background-color: white;
+            color: black;
+        }
+        .disciplinas{
+            text-align: left;
         }
     </style>
 </head>
@@ -32,7 +51,50 @@
             </tr>
             <tbody>
                 <tr>
-                    
+                    <th scope="colgroup" rowspan="4" class="areas">Exatas</th>
+                    <td class="disciplinas">Matemática</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td class="disciplinas">Física</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td class="disciplinas">Química</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td class="disciplinas">Biologia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <th scope="row" colspan="4" style="text-align: left;">Média das Exatas</th>
+                    <td class="medias">0.0</td>
+                </tr>
+                <tr>
+                    <th scope="rowgroup" rowspan="2" class="areas">Humanas</th>
+                    <td>História</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <td>Geografia</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                    <td>0.0</td>
+                </tr>
+                <tr>
+                    <th  scope="row" colspan="4" style="text-align: left;">Média de humanas</th>
+                    <td class="medias">0.0</td>
                 </tr>
             </tbody>
         </thead>
